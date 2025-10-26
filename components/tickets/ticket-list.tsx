@@ -40,7 +40,6 @@ export function TicketList({ tickets, onEdit, onDelete }: TicketListProps) {
       toast({
         title: "Error",
         description: "Failed to delete ticket.",
-        variant: "destructive",
       });
     }
   };
